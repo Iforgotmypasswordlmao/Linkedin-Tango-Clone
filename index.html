@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bananas tangos</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="ui">
+            <div id="win">
+                <div class="winTextBox">
+                    <h1>You beat this puzzle!</h1>
+                    <button id="close">Close</button>
+                </div>
+            </div>
+            <div class="container">
+                <canvas id="background" width="450" height="450"></canvas>
+                <canvas id="board" width="450" height="450"></canvas>
+                <canvas id="errorBackground" width="450" height="450"></canvas>
+                <canvas id="grid" width="450" height="450"></canvas>
+            </div>
+            <div class="controls">
+                <button id="clear">Clear</button>
+                <button id="newGame">New game</button>
+
+            </div>
+        </div>
+        <script src="script.js" type="module"></script>
+    </body>
+</html>
